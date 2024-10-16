@@ -1,6 +1,5 @@
 body{
-    background-color: lightblue;
-    height: 90vh; 
+    background-color: black;
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -25,6 +24,8 @@ header{
     display: flex;
     margin-bottom: 0;
     margin: 5px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer{
@@ -32,22 +33,24 @@ footer{
     margin-top: 20px;
 }
 
-.capsule{
+.capsule, .goku, .textoHeader{
     width: 60px;
     height: 60px;
-}
-
-.textoHeader{
-    width: 75vh;
-    height: 60px;
-    margin: 0;
-    line-height: 1;
+    margin-right: 10px;
 }
 
 .goku{
+    margin-left: auto;
+}
+
+.textoHeader{
     width: 60px;
     height: 60px;
+    margin: 0;
+    line-height: 1;
+    font-size:large;
 }
+
 
 .cuerpo{
     border: solid black;
